@@ -54,7 +54,7 @@ Users should be able to:
 ### Continued development
 
 1. flex model
-2. position prooerty
+2. position property
 3. relative units
 
 
