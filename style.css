@@ -1,0 +1,96 @@
+
+#background{
+    background-color: rgb(20, 20, 20);
+    min-height: 100vh;
+    display: flex;
+}
+
+#box{
+    margin: auto;
+    height: 590px;
+    width: 364px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 8px;   
+}
+
+#Jessica{
+    position: relative;
+    top: 35px;
+    height: 81px;
+    width: 82px;
+    border-radius: 80px;   
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.biodata{
+    position: relative;
+    top: 37px;
+    text-align: center;
+}
+
+#name{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+#location{
+    color: hsl(75, 94%, 57%);
+    font-family: Inter;
+    font-size: 0.7rem;
+    margin-top: 7px;
+    margin-bottom: 12px;
+}
+
+#job{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 0.7rem;
+    padding-left: 3px;
+}
+
+.socialmedia{
+    background-color: rgb(51, 51, 51);
+    border-radius: 10px;
+    height: 44px;
+    width: 289px;
+    margin: 10px;
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+    align-content: center;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.socialmedia:hover{
+     background-color:rgb(196, 248, 42);
+}
+
+#flex{
+    display: flex;
+    height: 396px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.acc{
+    text-align: center;
+    margin: 0px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.acc:hover{
+    color: rgb(0, 0, 0);
+}
